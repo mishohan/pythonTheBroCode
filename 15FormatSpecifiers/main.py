@@ -34,7 +34,7 @@ print(f"price3 is ${price3 :^10.2f}") # Center Align
 # Indicating Positive Value for all positive numbers
 print(f"price1 is ${price1 :+10.1f}")
 print(f"price2 is ${price2 :+10.1f}")
-print(f"price3 is ${price3 :+10.1f}")
+print(f"price3 is ${price3 : 10.1f}") # can also use a space instead of a + (don't!)
 
 # Thousand Separator
 print(f"price1 is ${price1 :+10,.2f}")
