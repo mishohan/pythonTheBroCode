@@ -28,3 +28,5 @@ print(fruits.count("coconut"))
 # itterable
 for fruit in fruits:
     print(fruit)
+
+# WE HAVE ANOTHER KIND OF COLLECTION CALLED:- DICTIONARIES
