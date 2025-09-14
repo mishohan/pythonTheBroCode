@@ -6,9 +6,9 @@
 
 # SET = {}
 
-fruits = {"apple", "orange", "coconut", "banana"}
+fruits = {"apple", "orange", "coconut", "banana", "coconut"}
 
-print(fruits)
+print(fruits) # only one coconut on the print statement
 
 #different methods in set
 # print(dir(fruits))
@@ -19,7 +19,7 @@ print(fruits)
 # #length of a set
 print(len(fruits))
 
-# determine weather a value is in the list: in operator
+# determine weather a value is in the set: in operator
 print("apple" in fruits) # returns boolean
 
 # set object is not subscriptable
@@ -34,7 +34,11 @@ fruits.remove("pineapple")
 print(fruits)
 
 # pop method
-print(fruits.pop())
+# print(fruits.pop())
 
 # clear
-print(fruits.clear())
+# print(fruits.clear())
+
+# itterable
+for fruit in fruits:
+    print(fruit)
