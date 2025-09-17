@@ -32,6 +32,8 @@ for question in questions:
         print("INCORRECT!")
         print(f"{answers[question_num]} is the correct answer.")
     question_num += 1
+
+    
 print("-----------------")
 print("    RESULTS     ")
 print("-----------------")
